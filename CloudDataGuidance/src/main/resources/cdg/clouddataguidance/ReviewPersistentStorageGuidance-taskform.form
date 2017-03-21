@@ -1,0 +1,162 @@
+
+<form id="1549488979">
+<property name="name" value="ReviewPersistentStorageGuidance-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="C2SPersistentStorageGuidance_archivalGuidance" type="InputText" id="1605380584">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;archivalGuidance (C2SPersistentStorageGuidance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="C2SPersistentStorageGuidanceOut/archivalGuidance"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="C2SPersistentStorageGuidance_contentID" type="InputText" id="832381800">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contentID (C2SPersistentStorageGuidance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="C2SPersistentStorageGuidanceOut/contentID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="C2SPersistentStorageGuidance_storageCost" type="InputText" id="533132777">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;storageCost (C2SPersistentStorageGuidance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="C2SPersistentStorageGuidanceOut/storageCost"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="C2SPersistentStorageGuidance_storageType" type="InputText" id="382611839">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;storageType (C2SPersistentStorageGuidance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="C2SPersistentStorageGuidanceOut/storageType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="DataClassification_PIIInd" type="InputText" id="1531460036">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PIIInd (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/PIIInd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="DataClassification_dataAtRestSecurity" type="InputText" id="2038010317">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataAtRestSecurity (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataAtRestSecurity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="DataClassification_dataDescription" type="InputText" id="1861309910">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataDescription (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="DataClassification_dataManager" type="InputText" id="1536203918">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataManager (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataManager"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="DataClassification_dataMigrationActualDate" type="InputDate" id="616232137">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataMigrationActualDate (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationActualDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="9" name="DataClassification_dataMigrationCategories" type="InputText" id="1140750052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataMigrationCategories (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationCategories"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="DataClassification_dataMigrationPlannedData" type="InputDate" id="766239057">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataMigrationPlannedData (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationPlannedData"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="11" name="DataClassification_dataOwner" type="InputText" id="1190391356">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataOwner (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataOwner"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="DataClassification_dataPointOfContact" type="InputText" id="1741652869">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataPointOfContact (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataPointOfContact"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="DataClassification_dataPurpose" type="InputText" id="757890758">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataPurpose (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataPurpose"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="DataClassification_dataRelations" type="InputText" id="265065864">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataRelations (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataRelations"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="DataClassification_dataSecurityLevel" type="InputText" id="178141244">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataSecurityLevel (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataSecurityLevel"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="DataClassification_dataSize" type="InputTextInteger" id="1135318859">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataSize (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataSize"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="17" name="DataClassification_dataStorageNetwork" type="InputText" id="75676418">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataStorageNetwork (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataStorageNetwork"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="DataClassification_dataTransferSecurity" type="InputText" id="130129828">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataTransferSecurity (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataTransferSecurity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="DataClassification_dataType" type="InputText" id="1536484477">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataType (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="DataClassification_frequencyOfDataMovement" type="InputText" id="2118933555">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;frequencyOfDataMovement (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/frequencyOfDataMovement"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="DataClassification_methodOfStorage" type="InputText" id="807004798">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;methodOfStorage (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/methodOfStorage"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="C2SPersistentStorageGuidanceOut" value="cdg.clouddataguidance.C2SPersistentStorageGuidance" id="C2SPersistentStorageGuidance"/>
+<dataHolder inputId="DataClassificationIn" name="#BBBBBB" type="dataModelerEntry" outId="" value="cdg.clouddataguidance.DataClassification" id="DataClassification"/>
+</form>

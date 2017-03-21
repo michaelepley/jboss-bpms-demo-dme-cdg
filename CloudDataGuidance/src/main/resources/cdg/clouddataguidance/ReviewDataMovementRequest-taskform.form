@@ -1,0 +1,175 @@
+
+<form id="248942401">
+<property name="name" value="ReviewDataMovementRequest-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="DataClassification_PIIInd" type="InputText" id="383456825">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Contains PII (Personally Identifiable Information) or not (Y/N)?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/PIIInd"/>
+<property name="outputBinding" value="DataClassificationOut/PIIInd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="DataClassification_dataAtRestSecurity" type="InputText" id="233766901">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data at Rest Security (Encrypted/Unencrypted)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataAtRestSecurity"/>
+<property name="outputBinding" value="DataClassificationOut/dataAtRestSecurity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="DataClassification_dataDescription" type="InputText" id="889047437">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Classification - Data Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataDescription"/>
+<property name="outputBinding" value="DataClassificationOut/dataDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="DataClassification_dataManager" type="InputText" id="1108680465">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Classification - Data Managerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataManager"/>
+<property name="outputBinding" value="DataClassificationOut/dataManager"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="DataClassification_dataMigrationActualDate" type="InputDate" id="347729654">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Classification - Actual date of data migrationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationActualDate"/>
+<property name="outputBinding" value="DataClassificationOut/dataMigrationActualDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="5" name="DataClassification_dataMigrationCategories" type="InputText" id="441248294">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Classification - Data Migration Categories (Mission Data, Activity Data, Analytical Data, Corporate or Organizational Data)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationCategories"/>
+<property name="outputBinding" value="DataClassificationOut/dataMigrationCategories"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="DataClassification_dataMigrationPlannedData" type="InputDate" id="1474968021">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Classification - Data Movement Planned Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataMigrationPlannedData"/>
+<property name="outputBinding" value="DataClassificationOut/dataMigrationPlannedData"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="DataClassification_dataOwner" type="InputText" id="1215310648">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataOwner (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataOwner"/>
+<property name="outputBinding" value="DataClassificationOut/dataOwner"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="DataClassification_dataPointOfContact" type="InputText" id="774328940">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataPointOfContact (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataPointOfContact"/>
+<property name="outputBinding" value="DataClassificationOut/dataPointOfContact"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="DataClassification_dataPurpose" type="InputText" id="1680550099">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataPurpose (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataPurpose"/>
+<property name="outputBinding" value="DataClassificationOut/dataPurpose"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="DataClassification_dataRelations" type="InputText" id="1756994093">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataRelations (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataRelations"/>
+<property name="outputBinding" value="DataClassificationOut/dataRelations"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="DataClassification_dataSecurityLevel" type="InputText" id="604961619">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataSecurityLevel (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataSecurityLevel"/>
+<property name="outputBinding" value="DataClassificationOut/dataSecurityLevel"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="DataClassification_dataSize" type="InputTextInteger" id="626657445">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataSize (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataSize"/>
+<property name="outputBinding" value="DataClassificationOut/dataSize"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="13" name="DataClassification_dataStorageNetwork" type="InputText" id="576363084">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataStorageNetwork (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataStorageNetwork"/>
+<property name="outputBinding" value="DataClassificationOut/dataStorageNetwork"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="DataClassification_dataTransferSecurity" type="InputText" id="2015725860">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataTransferSecurity (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataTransferSecurity"/>
+<property name="outputBinding" value="DataClassificationOut/dataTransferSecurity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="DataClassification_dataType" type="InputText" id="285793502">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataType (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/dataType"/>
+<property name="outputBinding" value="DataClassificationOut/dataType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="DataClassification_frequencyOfDataMovement" type="InputText" id="241965767">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;frequencyOfDataMovement (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/frequencyOfDataMovement"/>
+<property name="outputBinding" value="DataClassificationOut/frequencyOfDataMovement"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="DataClassification_methodOfStorage" type="InputText" id="1883396075">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;methodOfStorage (DataClassification)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="DataClassificationIn/methodOfStorage"/>
+<property name="outputBinding" value="DataClassificationOut/methodOfStorage"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="DataClassificationIn" name="#BBBBBB" type="dataModelerEntry" outId="DataClassificationOut" value="cdg.clouddataguidance.DataClassification" id="DataClassification"/>
+</form>

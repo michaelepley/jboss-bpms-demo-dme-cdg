@@ -1,0 +1,19 @@
+package cdg.clouddataguidance;
+
+import java.lang.Number;
+
+rule "Validate"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "validation"
+	date-effective "09-Nov-2016"
+	when
+		dc : DataClassification( dataSize == null )
+		ve : ValidationError( )
+	then
+		modify( ve ) {
+				setErrorCode( "E001" ), 
+				setErrorDescription( "Data Size can not be null" )
+		}
+		System.out.println("Validation Rule Executed");
+end
